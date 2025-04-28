@@ -1,9 +1,49 @@
-<html>
-  <head> <title> demo first</title></head>
-  <body>
-    <h1>MY FIRST DEMO GITHUB</h1><HR>
-    <H2> MY FIRST DEMO GITHUB</H2><HR>
-    <H3> MY FIRST DEMO GITHUB</H3><HR>
-    <H4>  MY FIRST DEMO GITHUB</H4>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo First</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #fff;
+      text-align: center;
+      padding-top: 50px;
+      font-family: Arial, sans-serif;
+    }
+
+    h1, h2, h3, h4 {
+      position: relative;
+      font-weight: bold;
+      background: linear-gradient(90deg, #fff, #f0f, #0ff, #ff0, #fff);
+      background-size: 300% 100%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: glitter 2s linear infinite;
+    }
+
+    hr {
+      margin: 20px auto;
+      width: 50%;
+      border: 1px solid #555;
+    }
+
+    @keyframes glitter {
+      0% {
+        background-position: 300% 0;
+      }
+      100% {
+        background-position: -300% 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>MY FIRST DEMO GITHUB</h1><hr>
+  <h2>MY FIRST DEMO GITHUB</h2><hr>
+  <h3>MY FIRST DEMO GITHUB</h3><hr>
+  <h4>MY FIRST DEMO GITHUB</h4>
+
+</body>
 </html>
